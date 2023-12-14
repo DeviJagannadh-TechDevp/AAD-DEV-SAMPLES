@@ -1,1 +1,0 @@
-﻿Get-MgReportAuthenticationMethodUserRegistrationDetail -All:$true | Select-Object UserType, UserPrincipalName, UserDisplayName, userPreferredMethodForSecondaryAuthentication, IsAdmin, IsMfaCapable, IsMfaRegistered,IsPasswordlessCapable, IsSsprCapable, IsSsprEnabled, IsSsprRegistered, MethodsRegistered, AdditionalProperties | Export-Csv "new.csv" -NoTypeInformation
